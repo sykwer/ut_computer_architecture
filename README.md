@@ -37,3 +37,17 @@ $ vagrant ssh
 $ ~/intelFPGA_lite/18.0/quartus/bin/quartus
 $ ~/intelFPGA_lite/18.0/modelsim_ase/linuxaloem/vsim
 ```
+
+## How to simulate CPU
+1. Assemble test assembly code
+```
+$ ./assembler/bin/assembler computer/sample.asm > computer/sample.bnr
+```
+
+2. Compile all verilog files on Modelsim (be careful to compile order)
+
+3. Simulate on Modelsim
+```
+vsim work.test_computer
+run
+```
