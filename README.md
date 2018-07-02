@@ -1,6 +1,8 @@
 # ut_computer_architecture
 CPU by verilog and Assembler by C++
 
+![block diagram](https://user-images.githubusercontent.com/18254663/42187783-3e05194a-7e8c-11e8-8edc-e667f98788ac.jpg "block diagram")
+
 ## How to run assembler
 ```
 $ mkdir -p assembler/bin
