@@ -1,3 +1,17 @@
 .vagrant/
 assembler/.idea/
 assembler/cmake-build-debug
+computer/*.mpf
+computer/*.qpf
+computer/*.qsf
+computer/*.qws
+computer/*.mti
+computer/*.bak
+computer/*.wlf
+computer/transcript
+computer/c5_pin_model_dump.txt
+computer/db/
+computer/incremental_db/
+computer/output_files/
+computer/simulation/
+computer/work/
